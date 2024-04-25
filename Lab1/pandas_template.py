@@ -80,5 +80,9 @@ Auto_re = Auto.set_index('name')
 # Auto.hist('mpg', color='green', bins=12, ax=ax)
 # plt.show()
 
+# Set display options to ensure all rows and relevant columns are visible
+# pd.set_option('display.max_rows', None)  # Adjust as necessary based on the number of rows or None to show all rows
+
+
 pd.plotting.scatter_matrix(Auto[['mpg', 'displacement','weight']])
 plt.show()
