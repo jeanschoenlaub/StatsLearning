@@ -74,4 +74,5 @@ axes[0,1].set_xlabel('Accept rate > 50%')  # Labeling the x-axis
 axes[0,1].set_ylabel('School talent')  # Labeling the y-axis
 
 plt.tight_layout()
+plt.tight_layout()
 plt.show()
